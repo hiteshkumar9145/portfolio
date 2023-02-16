@@ -1,10 +1,10 @@
 @import 'utilities.css';
 :root{
---primary: rgb(126,167, 78);
---bgDark: rgb(20, 17, 37);
---white: rgb(250, 250, 250);
---secondary: rgb(0, 59, 50);
---bgLight: rgb(190, 181, 181);
+  --primary: rgb(215 179 126);
+  --bgDark: rgb(82 63 47);
+  --white: rgb(250, 250, 250);
+  --secondary: rgb(255 255 255);
+  --bgLight: rgb(251 174 81);
 }
 *{
     padding: 0;
@@ -92,7 +92,7 @@ section {
   }
   section.about p {
     font-family: "Lato", sans-serif;
-    color: var(--secondary);
+    color: var(--bgDark);
     line-height: 1.9rem;
     margin-bottom: 2rem;
   }
@@ -112,7 +112,7 @@ section {
   }
 
 section.info {
-    background: rgb(20, 17, 37)
+    background: black;
     
   }
   .icons{
