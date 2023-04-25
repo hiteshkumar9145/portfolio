@@ -1,146 +1,74 @@
-@import 'utilities.css';
-:root{
-  --primary: rgb(215 179 126);
-  --bgDark: rgb(82 63 47);
-  --white: rgb(250, 250, 250);
-  --secondary: rgb(255 255 255);
-  --bgLight: rgb(251 174 81);
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    }
-    header{
-    background-color: var(--bgDark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
-    }
-    header nav .left a{
-    color: var(--white);
-    text-decoration: none;
-    margin-right: 2rem;
-    text-transform: uppercase;
-    transition: all .2s ease;
-    }
-    header nav .left a:hover{
-    color: var(--primary);
-    }
-    header nav {
-    padding: 2rem 0;
-    }
-    header nav .logo{
-    margin-right: 3rem;
-    }
-    
-body {
-    font-family: "Poppins", sans-serif;
-  }
-  .container {
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  .hero {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-  }
-  .hero .left img {
-    width: 400px;
-    margin: 70px;
-    box-shadow: 0px 0px 100px #000000;
-  }
-  .hero .right {
-    color: var(--white);
-    margin-top: -7rem;
-  }
-  .hero .right h6 {
-    font-size: 1.6rem;
-    color: var(--primary);
-    margin-bottom: 0.5rem;
-  }
-  .hero .right h1 {
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.2;
-    margin-bottom: 2rem;
-  }
-  .hero .right h1 span {
-    color: var(--primary);
-  }
-  .hero .right p {
-    line-height: 1.9;
-    margin-bottom: 2rem;
-  }
-  
-  
-section {
-    padding: 6rem;
-  }
-  section.about h1 {
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  section.about h1 span {
-    color: var(--primary);
-  }
-  section.about h3 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-  section.about p {
-    font-family: "Lato", sans-serif;
-    color: var(--bgDark);
-    line-height: 1.9rem;
-    margin-bottom: 2rem;
-  }
-  section.about .socials {
-    display: flex;
-  }
-  section.about .socials a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    margin-right: 0.8rem;
-    border-radius: 50%;
-  }
-  section.about .socials a:hover {
-    background: var(--primary);
-  }
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&family=Lato:wght@500&family=Poppins:wght@500&display=swap');
 
-section.info {
-    background: black;
-    
-  }
-  .icons{
-    text-align: center;
-  }
-  .card{
-    text-align: center;
-    align-content: center;
+* {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
-  
-.a{
-  width: 25px;
-  height: 25px;
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: center;
 }
-.a:hover{
-  box-shadow: 0px 0px 10px #5093E2;
+
+nav {
+  float: right;
 }
-.b{
-  width: 25px;
-  height: 25px;
+
+/* ul{
+  display: flex;
+  justify-content: space-around;
+} */
+li {
+  display: inline;
+  list-style-type: none;
 }
-.b:hover{
-  box-shadow: 0px 0px 15px #a40585;
+
+a {
+  text-decoration: none;
+  color: #0e7ba0;
 }
-.c{
-  width: 25px;
-  height: 25px;
+
+h1,
+h2,
+h3 {
+  margin: 4px;
 }
-.c:hover{
-  box-shadow: 0px 0px 10px #001eff;
+
+h4 {
+  margin: 1px;
+  font-weight: 700;
+  text-align: left;
+}
+
+p {
+  width: 90vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+section>p {
+  margin: 3px;
+}
+
+.text--about {
+  margin: 3px;
+  text-align: justify;
+}
+
+.project>p {
+  text-align: justify;
+  margin: 0;
+}
+
+.project>span {
+  float: right;
+  position: relative;
+  top: -18px;
+}
+
+.get-me-on {
+  font-weight: 700;
+  margin: 4px;
+  text-decoration: underline;
 }
