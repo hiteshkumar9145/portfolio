@@ -1,11 +1,11 @@
-# [Vikas Parmar](https://github.com/vikas-parmar/vikasparmar/)
+# [Vikas Parmar - PortFolio](https://github.com/vikas-parmar/vikasparmar/)
 
 ## Description
 :pushpin: A portfolio site is a website that showcases your best work, skills, and achievements to potential employers, clients, or collaborators. It's a powerful marketing tool that helps in establish personal brand and stand out in a crowded job market. I'm showcasing A classic well- designed user-friendly portfolio site that includes a clear bio, work samples and contect details.
 
 ## Links
-- GitHub: [Vikas Parmar](https://github.com/vikas-parmar/vikasparmar/)
-- Live Site: [PortFolio](https://vikas-parmar.github.io/vikasparmar/)
+- GitHub: [Vikas Parmar](https://github.com/vikas-parmar/portfolio/)
+- Live Site: [PortFolio](https://vikas-parmar.github.io/portfolio/)
 
 ## Technologies Used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
